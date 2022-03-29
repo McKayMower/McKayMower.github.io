@@ -1,0 +1,80 @@
+header {
+    height: 75vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header-container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* --- Resume and Contact buttons --- */
+
+.CallToAction {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* --- Socials --- */
+
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header-socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+
+}
+
+/* --- Image of Me--- */
+
+.pic-of-me {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4 rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* --- Scroll Down --- */
+
+.scroll-down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+/* --- Media Query (Tablets / Medium Devices) --- */
+@media screen and (max-width: 1024px) {
+   header {
+        height: 68vh;
+    }
+}
+
+/* --- Media Query (Phones / Smalls Devices) --- */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header-socials, .scroll-down {
+        display: none;
+    }
+}

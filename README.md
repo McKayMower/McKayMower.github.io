@@ -1,3 +1,3 @@
 # Welcome to my website!
 
-Please visit my website [here](McKayMower.github.io)
+Please visit my website [here](https://mckaymower.github.io/)

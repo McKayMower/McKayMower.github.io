@@ -5,7 +5,7 @@ const CallToAction = () => {
   return (
     <div className="CallToAction">
         <a href={Resume} download className='btn'>Download My Resume!</a>    
-        <a href="#contact" className='btn btn-primary'>Contact Me!</a>    
+        <a href="#Contact Me" className='btn btn-primary'>Contact Me!</a>    
     </div>
   )
 }

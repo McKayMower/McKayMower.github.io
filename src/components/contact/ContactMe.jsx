@@ -44,7 +44,7 @@ const ContactMe = () => {
           </article>
           <article className="contact-option">
             <HiChatAlt className="contact-option-icon" />
-            <h4>Messenger</h4>
+            <h4>Facebook Messenger</h4>
             <h5>McKay Mower</h5>
             <a href="https://m.me/mckay.mower" target="_blank" rel="noreferrer">
               Send a Facebook Message
@@ -52,7 +52,7 @@ const ContactMe = () => {
           </article>
           <article className="contact-option">
             <HiUser className="contact-option-icon" />
-            <h4>Messenger</h4>
+            <h4>LinkedInr</h4>
             <h5>McKay Mower</h5>
             <a
               href="https://www.linkedin.com/in/mmower777"

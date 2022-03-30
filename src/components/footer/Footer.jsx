@@ -4,7 +4,7 @@ import { FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="footer">
       <a href="#top" className="footer-logo">
         McKay Mower
       </a>
@@ -24,13 +24,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer-socials">
-        <a href="https://facebook.com/mckay.mower">
+        <a href="https://facebook.com/mckay.mower" target="_blank" rel="noreferrer">
           <FaFacebook />
         </a>
-        <a href="https://github.com/McKayMower">
+        <a href="https://github.com/McKayMower" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/mmower777/">
+        <a href="https://www.linkedin.com/in/mmower777/" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
       </div>

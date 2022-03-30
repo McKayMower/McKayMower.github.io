@@ -55,7 +55,7 @@ const ContactMe = () => {
             <h4>Messenger</h4>
             <h5>McKay Mower</h5>
             <a
-              href="https://www.linkedin.com/mmower777"
+              href="https://www.linkedin.com/in/mmower777"
               target="_blank"
               rel="noreferrer"
             >

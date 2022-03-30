@@ -52,7 +52,7 @@ const ContactMe = () => {
           </article>
           <article className="contact-option">
             <HiUser className="contact-option-icon" />
-            <h4>LinkedInr</h4>
+            <h4>LinkedIn</h4>
             <h5>McKay Mower</h5>
             <a
               href="https://www.linkedin.com/in/mmower777"
